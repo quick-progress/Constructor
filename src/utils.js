@@ -1,5 +1,5 @@
 export function row(content, styles = '') {
-    return `<div class="row" style="${styles}">${content}</div>`;
+    return `<div class="row row-block" style="${styles}">${content}</div>`;
 }
 
 export function col(content, styles = '') {
