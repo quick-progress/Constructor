@@ -1,0 +1,27 @@
+{
+  "name": "constructorjs",
+  "version": "1.0.0",
+  "description": "pure javascript site constructor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Georgiy Kuznetsov <georgiy.kuznetsov.19@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "path": "^0.12.7",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
